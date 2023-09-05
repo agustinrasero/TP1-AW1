@@ -1,0 +1,123 @@
+#titulo{
+    text-align: center;
+    color: black;
+}
+
+.ParrafoHeader{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+
+
+/*Textbox*/
+
+#search{
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 1px 1px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    float: right;
+    margin-right: 10px;
+}
+
+#encabezado {
+    background-image: url('Multimedia/banner.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen al encabezado */
+    background-position: center; /* Centra la imagen de fondo horizontalmente */
+    color: white; /* Color del texto en el encabezado (para que sea legible) */
+    text-align: center; /* Centra el texto en el encabezado */
+    padding: 100px 0; /* Espaciado interno arriba y abajo para el contenido del encabezado */
+}
+
+#Hipervinculos{
+    text-align: center;
+    background-color:rgb(187, 138, 64);
+    text-size-adjust: 20px;
+    
+}
+
+#Hipervinculos a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10;
+}
+
+#Hipervinculos a:hover{
+    background-color: white;
+    color: black;
+}
+
+main{
+    background-color: burlywood;
+}
+
+.Catalogo{
+    text-align: center;
+}
+
+#Peliculas{
+    text-align: center;
+}
+
+#Series{
+    text-align: center;
+    
+}
+
+footer{
+    background-color: burlywood;
+}
+
+/*Boton Buscar*/
+#buttonS{
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 1px 1px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    float: right;
+}
+
+#buttonS:hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.Info{
+    text-align: center;
+}
