@@ -8,7 +8,7 @@
 </head>
 <body>
     <header id="encabezado">
-        <h1>Reseñas</h1>
+        <h1 id="titulo">Reseñas</h1>
     </header>
 
     <main>
@@ -18,49 +18,51 @@
             <a class="hv"href="catalogo.html">Catalogo</a>
         </div>
         <h2>¿Viste alguna pelicula/serie? Deja tu reseña!</h2>
-        <form id="Formulario">
-            <label>Pelicula/Serie:</label>
-            <select>
-                <option value="13">13 Reasons Why</option>
-                <option value="BrBa">Breaking Bad</option>
-                <option value="LCDP">La casa de papel</option>
-                <option value="Aladdin">Aladdin</option>
-                <option value="DP">Dark Phoenix</option>
-                <option value="SW">StarWars: The force awekens</option>
-            </select>
-            <br>
-            <br>
-            <label>Puntuación:</label>
-            <select class="stars">
-                <option value="1">⭐</option>
-                <option value="2">⭐⭐</option>
-                <option value="3">⭐⭐⭐</option>
-                <option value="4">⭐⭐⭐⭐</option>
-                <option value="5">⭐⭐⭐⭐⭐</option>
-            </select>
-            <br>
-            <br>
-            <label>Escriba una reseña:</label>
-            <br>
-            <textarea id="Reseña" name="texto" rows="6" cols="50" placeholder="Escriba aqui!"></textarea>
-            <br>
-            <br>
-            <label>Nombre:</label>
-            <input type="text" id="Nombre">
-            <label>Apellido:</label>
-            <input type="text" id="Apellido">
-            <br>
-            <br>
-            <label>Correo electronico:</label>
-            <input type="text" id="Correo">
-            <br>
-            <br>
-            <input type="checkbox">
-            <label>Acepto los terminos</label>
-            <br>
-            <br>
-            <button>Enviar Reseña</button>
-        </form>
+        <div class="box">
+            <form id="Formulario">
+                <label>Pelicula/Serie:</label>
+                <select>
+                    <option value="13">13 Reasons Why</option>
+                    <option value="BrBa">Breaking Bad</option>
+                    <option value="LCDP">La casa de papel</option>
+                    <option value="Aladdin">Aladdin</option>
+                    <option value="DP">Dark Phoenix</option>
+                    <option value="SW">StarWars: The force awekens</option>
+                </select>
+                <br>
+                <br>
+                <label>Puntuación:</label>
+                <select class="stars">
+                    <option value="1">⭐</option>
+                    <option value="2">⭐⭐</option>
+                    <option value="3">⭐⭐⭐</option>
+                    <option value="4">⭐⭐⭐⭐</option>
+                    <option value="5">⭐⭐⭐⭐⭐</option>
+                </select>
+                <br>
+                <br>
+                <label>Escriba una reseña:</label>
+                <br>
+                <textarea id="Reseña" name="texto" rows="6" cols="50" placeholder="Escriba aqui!"></textarea>
+                <br>
+                <br>
+                <label>Nombre:</label>
+                <input type="text" id="Nombre">
+                <label>Apellido:</label>
+                <input type="text" id="Apellido">
+                <br>
+                <br>
+                <label>Correo electronico:</label>
+                <input type="text" id="Correo">
+                <br>
+                <br>
+                <input type="checkbox">
+                <label>Acepto los terminos</label>
+                <br>
+                <br>
+                <button>Enviar Reseña</button>
+            </form>
+        </div>
     </main>
     
     <footer>

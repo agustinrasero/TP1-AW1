@@ -8,7 +8,8 @@
     color: black;
     text-decoration: underline;
     font-weight: bold;
-
+    font-size: 35px;
+    color: #000000ce;
 }
 
 
@@ -121,3 +122,18 @@ footer{
 .Info{
     text-align: center;
 }
+
+#titulo {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #f2f2f2; 
+    padding: 20px; 
+  } 
+  #titulo{
+    display: inline-block; /* Permite que el título se comporte como un bloque en línea */
+    background-color: #5e1616; 
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 70px; 
+    font-family: 'Mukta', sans-serif;
+  }
