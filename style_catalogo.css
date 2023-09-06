@@ -1,21 +1,15 @@
 #titulo{
     text-align: center;
-    color: black;
+    color: white;
 }
 
-#encabezado {
-    background-image: url('Multimedia/banner.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen al encabezado */
-    background-position: center; /* Centra la imagen de fondo horizontalmente */
-    color: white; /* Color del texto en el encabezado (para que sea legible) */
-    text-align: center; /* Centra el texto en el encabezado */
-    padding: 100px 0; /* Espaciado interno arriba y abajo para el contenido del encabezado */
-}
+
 
 #Hipervinculos{
     text-align: center;
-    background-color:rgb(187, 138, 64);
+    background-color: #272727;
     text-size-adjust: 20px;
+    font-family: 'Oswald', sans-serif;
     
 }
 
@@ -31,11 +25,15 @@
 }
 
 main{
-    background-color: burlywood;
+    background-color: white;
 }
 
+body{
+    background-color: #272727;
+}
 footer{
-    background-color: burlywood;
+    background-color: #272727;
+    color: white;
 }
 
 #titulo {
@@ -43,12 +41,54 @@ footer{
     background-color: #f2f2f2; 
     padding: 20px; 
   } 
-  #titulo{
-    display: inline-block; /* Permite que el título se comporte como un bloque en línea */
-    background-color: #5e1616; 
-    color: #fff; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 70px; 
-    font-family: 'Mukta', sans-serif;
+  
+
+  .contenedor{
+    font-family: 'Oswald', sans-serif;
   }
+
+  #peliculas{
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #series{
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #Buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 500px;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    float: right;
+
+    
+}
+
+#titulo {
+    background-color: #272727;
+    padding: 20px;
+    text-align: center; /* Centrar el contenido horizontalmente */
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+
+.imagen {
+    width: 200px;
+    
+    transition: transform 0.3s ease; /* Transición suave para el efecto de zoom */
+    
+}
+
+.imagen:hover {
+    transform: scale(1.2); /* Escala la imagen al 120% del tamaño original al pasar el cursor por encima */
+
+}
+
+
+

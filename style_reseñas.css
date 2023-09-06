@@ -13,8 +13,9 @@ h2{
 
 #Hipervinculos{
     text-align: center;
-    background-color:rgb(187, 138, 64);
+    background-color: #272727;
     text-size-adjust: 20px;
+    font-family: 'Oswald', sans-serif;
     
 }
 
@@ -29,13 +30,8 @@ h2{
     color: black;
 }
 
-#encabezado {
-    background-image: url('Multimedia/banner.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen al encabezado */
-    background-position: center; /* Centra la imagen de fondo horizontalmente */
-    color: rgb(0, 0, 0); /* Color del texto en el encabezado (para que sea legible) */
-    text-align: center; /* Centra el texto en el encabezado */
-    padding: 100px 0; /* Espaciado interno arriba y abajo para el contenido del encabezado */
+#Formulario{
+    font-family: 'Oswald', sans-serif;
 }
 
 main{
@@ -47,25 +43,35 @@ footer{
 }
 
 #titulo {
-    text-align: center; /* Centra el contenido horizontalmente */
-    background-color: #f2f2f2; 
-    padding: 20px; 
-  } 
-  #titulo{
-    display: inline-block; /* Permite que el título se comporte como un bloque en línea */
-    background-color: #5e1616; 
-    color: #fff; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 70px; 
-    font-family: 'Mukta', sans-serif;
-  }
+    background-color: #272727;
+    padding: 20px;
+    text-align: center; /* Centrar el contenido horizontalmente */
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+} 
+  
 
-  .box{
+.box{
     margin:0 auto; 
     width:600px; 
     padding:20px;
     background:#f9f9f9;
     border:2px solid #333;
-    background-color: burlywood;
-    }
+    background-color: white;
+}
+
+body{
+   background-color: #272727;
+}
+
+main{
+    background-color: white;
+}
+
+footer{
+    background-color: #272727;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}

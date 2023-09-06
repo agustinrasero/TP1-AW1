@@ -1,7 +1,4 @@
-#titulo{
-    text-align: center;
-    color: black;
-}
+
 
 .ParrafoHeader{
     text-align: center;
@@ -12,37 +9,23 @@
     color: #000000ce;
 }
 
-
-
-/*Textbox*/
-
-#search{
-    background: black;
-    cursor: pointer;
-    border: none;
-    padding: 1px 1px;
-    color: azure;
-    font-size: 24px;
-    font-weight: bold;
-    position: relative;
-    border-radius: 12px;
-    float: right;
-    margin-right: 10px;
+.parrafo{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    max-width: 600px; /* Ancho máximo del contenedor */
+    padding: 1px 700px; /* Espaciado interior para mejorar el aspecto */
 }
 
-#encabezado {
-    background-image: url('Multimedia/banner.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen al encabezado */
-    background-position: center; /* Centra la imagen de fondo horizontalmente */
-    color: white; /* Color del texto en el encabezado (para que sea legible) */
-    text-align: center; /* Centra el texto en el encabezado */
-    padding: 100px 0; /* Espaciado interno arriba y abajo para el contenido del encabezado */
-}
+
+
+
+
 
 #Hipervinculos{
     text-align: center;
-    background-color:rgb(187, 138, 64);
+    background-color: #272727;
     text-size-adjust: 20px;
+    font-family: 'Oswald', sans-serif;
     
 }
 
@@ -58,15 +41,23 @@
 }
 
 main{
-    background-color: burlywood;
+    background-color: rgb(245, 245, 245);
 }
 
 .Catalogo{
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
 }
 
 #Peliculas{
     text-align: center;
+    
+}
+
+.Imagen:hover{
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 #Series{
@@ -74,66 +65,51 @@ main{
     
 }
 
-footer{
-    background-color: burlywood;
+.footer{
+    background-color: #272727;
+    color: white;
 }
 
-/*Boton Buscar*/
-#buttonS{
-    background: black;
-    cursor: pointer;
-    border: none;
-    padding: 1px 1px;
-    color: azure;
-    font-size: 24px;
-    font-weight: bold;
-    position: relative;
-    border-radius: 12px;
-    float: right;
-}
 
-#buttonS:hover::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
-    background-size: 800%;
-    border-radius: 12px;
-    filter: blur(8px);
-    animation: glowing 20s linear infinite;
-}
-
-@keyframes glowing {
-    0% {
-        background-position: 0 0;
-    }
-    50% {
-        background-position: 400% 0;
-    }
-    100% {
-        background-position: 0 0;
-    }
-}
 
 .Info{
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 #titulo {
-    text-align: center; /* Centra el contenido horizontalmente */
-    background-color: #f2f2f2; 
-    padding: 20px; 
-  } 
-  #titulo{
-    display: inline-block; /* Permite que el título se comporte como un bloque en línea */
-    background-color: #5e1616; 
-    color: #fff; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 70px; 
-    font-family: 'Mukta', sans-serif;
-  }
+    background-color: #272727;
+    padding: 20px;
+    text-align: center; /* Centrar el contenido horizontalmente */
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+
+
+
+body{
+    background-color: #272727;
+}
+  
+
+#Buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 500px;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    float: right;
+}
+
+
+
+
+
+
+
+
+  
