@@ -45,7 +45,27 @@ footer{
 
   .contenedor{
     font-family: 'Oswald', sans-serif;
-  }
+    
+    display: flex;
+    align-items:start; /* Alinea verticalmente los elementos */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    width: 95%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    background-color: white;
+    }
+
+    .imagen {
+        max-width: 50%; /* Ancho máximo de la imagen */
+        margin-right: 20px; /* Espacio entre la imagen y la lista */
+    }
+
+    
+  
 
   #peliculas{
     font-family: 'Oswald', sans-serif;
@@ -82,13 +102,18 @@ footer{
     width: 200px;
     
     transition: transform 0.3s ease; /* Transición suave para el efecto de zoom */
-    
+    margin: 20px;
 }
 
 .imagen:hover {
-    transform: scale(1.2); /* Escala la imagen al 120% del tamaño original al pasar el cursor por encima */
+    transform: scale(1.1); /* Escala la imagen al 120% del tamaño original al pasar el cursor por encima */
 
 }
+
+h2{
+    text-align: center;
+}
+
 
 
 
