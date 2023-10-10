@@ -4,85 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP1 AW1</title>
-    <link rel="stylesheet" href="style_reseñas.css" />
+    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="encabezado">
-        <h1 id="titulo">Reseñas</h1>
-    </header>
-
-    <main>
-        
-        <div id="Hipervinculos">
+        <figure class="logo">
+            <img src="Multimedia/cine.ico">
+        </figure>
+        <h1 id="titulo">YouEntertainment</h1>
+        <nav id="Hipervinculos">
             <a class="hv"href="index.html">Inicio</a>
             <a class="hv"href="catalogo.html">Catalogo</a>
-        </div>
-        <h2>¿Viste alguna pelicula/serie? Deja tu reseña!</h2>
-        <div class="box">
-            <form id="Formulario">
-                <label>Pelicula/Serie:</label>
-                <select>
-                    <option value="13">13 Reasons Why</option>
-                    <option value="BrBa">Breaking Bad</option>
-                    <option value="LCDP">La casa de papel</option>
-                    <option value="Aladdin">Aladdin</option>
-                    <option value="DP">Dark Phoenix</option>
-                    <option value="SW">StarWars: The force awekens</option>
-                </select>
-                <br>
-                <br>
-                <label>Puntuación:</label>
-                <select class="stars">
-                    <option value="1">⭐</option>
-                    <option value="2">⭐⭐</option>
-                    <option value="3">⭐⭐⭐</option>
-                    <option value="4">⭐⭐⭐⭐</option>
-                    <option value="5">⭐⭐⭐⭐⭐</option>
-                </select>
-                <br>
-                <br>
-                <label>Escriba una reseña:</label>
-                <br>
-                <textarea id="Reseña" name="texto" rows="6" cols="50" placeholder="Escriba aqui!"></textarea>
-                <br>
-                <br>
-                <label>Nombre:</label>
-                <input type="text" id="Nombre">
-                <label>Apellido:</label>
-                <input type="text" id="Apellido">
-                <br>
-                <br>
-                <label>Correo electronico:</label>
-                <input type="text" id="Correo">
-                <br>
-                <br>
-                <input type="checkbox">
-                <label>Acepto los terminos</label>
-                <br>
-                <br>
-                <button>Enviar Reseña</button>
-                
+            <a class="hv"href="reseñas.html">Reseñas</a>
+        </nav>
+    </header>
 
-            </form>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
+    <main class="main padding-bloques">
+        <h1 class="main__reseña">Dejanos tu reseña!!!</h1>
+        <form class="form" action="./reseñas.html" method="post">
+            <label for="id-nombre">Nombre</label>
+            <input
+                id="id-nombre"
+                name="nombre"
+                type="text"
+                minlength="3"
+                placeholder="su nombre"
+                required
+            />
+            <label for="id-email">Email</label>
+            <input id="id-email" name="email" type="email"
+            placeholder="email@email.com" required />
+            <label for="id-fecha">Fecha de la reseña</label>
+            <input id="id-fecha" name="fecha" type="date" required />
+            <label for="id-estrellas">Estrellas</label>
+            <input
+                id="id-estrellas"
+                max="5"
+                min="1"
+                name="dias"
+                type="number"
+                placeholder="cantidad de estrellas (1 - 5)"
+                required
+            />
+
+            <label for="id-pelicula-serie">Pelicula / Serie</label>
+                <select id="id-pelicula-serie">
+                    <option id="Aladin"> Aladin</option>
+                    <option id="Dp"> DarkPhoenix</option>
+                    <option id="Sw"> StarWars</option>
+                    <option id="Bb"> Breaking Bad</option>
+                    <option id="LCDP"> La casa de Papel</option>
+                    <option id="13"> 13 Reasons Why</option>
+
+                </select>
+            <label for="id-reseña">Reseña</label>
+            <textarea
+                id="id-reseña"
+                name="consulta"
+                cols="30"
+                rows="10"
+                required
+            ></textarea>
+            <button type="submit">Enviar reseña</button>
+        </form>
     </main>
-    
-    <footer>
-        <br>
+    <footer class="footer">
+        
         
         <p>Copyright© 2023 All rights reserved</p>
     </footer>
-    </footer>
+    
 </body>
 </html>

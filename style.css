@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+img,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#encabezado{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    padding-block: 15px;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+    
+    
+}
+
+
+
+
+#Hipervinculos{
+    display: flex;
+    flex-direction: row; /* Apila los elementos del menú verticalmente */
+    align-items: center; 
+    gap: 15px;
+    padding: 10px;
+    
+}
+
+.hv{
+    color: white;
+}
+
+/*FIN HEADER*/
+
+/*MAIN INDEX*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 50px 100px 50px 100px;
+    
+
+}
+
+#contenedor__parrafos__index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 0px 250px 0px 250px;
+}
+
+
+
+.info__index{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+}
+
+.catalogo__index{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+    margin: 25px;
+    
+}
+
+
+#peliculas__index{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+#series_index{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imagen__index {
+    
+    
+    transition: transform 0.3s ease; /* Transición suave para el efecto de zoom */
+   
+}
+
+.imagen__index:hover{
+    transform: scale(1.1);
+    
+}
+
+/*MAIN CATALOGO*/
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 15px;
+    border: 1px solid black;
+    margin: 5px;
+
+
+}
+
+
+.contenedor_ul{
+    width: 1000px;
+    height: 50px;
+}
+
+#peliculas,#series{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    padding: 15px 10px 15px 10px;
+}
+
+
+/*MAIN RESEÑAS*/
+
+.form{
+    display:flex;
+    flex-direction: column;
+    padding-inline: 20%;
+    margin-block-end: 40px;
+ 
+}
+.form label,.form input,.form textarea,.form select{
+    font-size: inherit;
+    font-family: inherit;
+    padding-block: 10px;
+    padding-inline: 5px;
+    margin-block-end: 10px;
+}
+.form input{
+    border: 1px solid #333;
+}
+.form textarea{
+    border: 1px solid #333;
+    min-height: 300px;
+}
+.form button{
+    font-size: inherit;
+    color: #ffffff;
+    background-color: #333333;
+    padding-block: 20px;
+    margin-block-start: 15px;
+    border-radius: 6px;
+    border:none;
+}
+
+.main__reseña{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* FIN MAIN */
+
+.footer{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    padding-block: 15px;
+    
+    height: 100px;
+}
