@@ -133,7 +133,9 @@ main {
     flex-direction: row;
     gap: 50px;
     padding: 15px;
-    border: 1px solid black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 5px;
 
 
@@ -143,6 +145,7 @@ main {
 .contenedor_ul{
     width: 1000px;
     height: 50px;
+    
 }
 
 #peliculas,#series{
@@ -206,4 +209,32 @@ main {
     padding-block: 15px;
     
     height: 100px;
+}
+
+
+
+
+/* MEDIA */
+
+@media screen and (max-width: 600px) {
+    #Hipervinculos {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .hv {
+        margin: 10px 0;
+    }
+
+    .info__index, .catalogo__index {
+        font-size: 20px;
+    }
+
+    .imagen__index {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 5px;
+    }
 }
