@@ -125,6 +125,11 @@ main {
 
 /*MAIN CATALOGO*/
 
+
+ul {
+    list-style: none;
+}
+
 .seccion{
     display: flex;
     flex-direction: row;
@@ -209,29 +214,3 @@ main {
 }
 
 
-
-
-/* MEDIA */
-
-@media screen and (max-width: 600px) {
-    #Hipervinculos {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    .hv {
-        margin: 10px 0;
-    }
-
-    .info__index, .catalogo__index {
-        font-size: 20px;
-    }
-
-    .imagen__index {
-        width: 100%;
-    }
-
-    .footer {
-        padding: 5px;
-    }
-}
